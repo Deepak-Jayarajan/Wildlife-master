@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+   <meta charset="UTF-8">
+   <title>Wildlife</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel='icon' type='img/png' href='images/eagletitle.png' sizes='16x16' />
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Caveat:wght@400;500;600;700&family=Cookie&display=swap&family=Montserrat" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Merienda&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+   <link rel='stylesheet' href="CSS/styles1.css" />
+   <link rel='stylesheet' href="CSS/styles2.css" />
+</head>
+<body>
+   <!----------Section 1---------->
+   <section class="header">
+      <nav>
+         <a href="http://localhost:5500/index.html">
+            <img src='images/logo4.png' alt='Wildlife logo'width='10%' height="10%">
+         </a>
+         <div class="nav-links" id=navLinks>
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT US</a></li>
+               <li><a href="https://www.worldwildlife.org/about/careers" target="_blank">COLLABORATE</a></li>
+               <li><a href="https://india.wcs.org/Programmes" target="_blank">PROGRAMMES</a></li>
+               <li><a href="#con-scroll">CONTACT</a></li>
+            </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+         <br>
+         <div class="text-box">
+            <!--<h1>Wildlife</h1>-->
+            <div title="WILDLIFE">
+            <svg class="svg1" width="100%" height="100%">          
+               <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+            <text x="50%" y="60%" text-anchor="middle">WILDLIFE</text>
+            </svg>
+            </div>
+            <p>An Organization to save Wildlife and a photo gallary of endangered species</p>
+            <a href="#scroll" class="hero-btn">Click here to know more</a>
+         </div>
+         <!--Java Script-->
+         <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right='-200px'
+            }
+        </script>
+        <!--/Java Script-->
+   </section>
+   <!----------Section 2----------->
+   <section class="overview" id="scroll">
+      <div class="div-overview">
+         <div title="OVERVIEW">
+         <svg class="animation" width="100%" height="100%">
+            <symbol id="s-text">
+               <text x="50%" y="60%" text-anchor="middle">OVERVIEW</text>
+            </symbol>
+            <g class = "g-ants">
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+          </svg>
+         </div>
+         <p>
+            Saving nature is at the very heart of what we do as an Organization. For 10 years, 
+            we have made it our mission to find solutions that save the marvelous array of life on our planet 
+            by applying the best science available and working closely with local communities.<br>
+            <br>
+            But our work is far from done. 
+            Humans are behind the current rate of species extinction, which is at least 
+            100–1,000 times higher than nature intended. We’ve seen an astonishing 60% decline in the 
+            size of populations of mammals, birds, fish, reptiles, and amphibians in just over 40 years,
+            according to WWF's Living Planet Report 2018.<br>
+            <br>
+            And the impacts will reach far beyond the potential cultural loss of iconic species like tigers, rhinos and whales.<br>
+            <br>
+            The good news is we’ve also seen what’s working. WWF has been part of successful wildlife recovery stories ranging from southern Africa’s 
+            black rhino to black bucks in the Himalayas. And this, in turn, is helping to protect rich and varied ecosystems while ensuring people continue to benefit from nature.<br>
+            <br>
+            <strong>
+            This much is clear: we cannot afford to fail in our mission to save a living planet.<br>
+            </strong>
+         </p>
+      </div>
+   </section>
+   <!----------Section 3----------->
+   <section class="explain">
+         <h1>Threatened species</h1>
+         <br>
+         <p>
+            Threatened species are any species (including animals, plants and fungi)
+            which are vulnerable to endangerment in the near future.
+         </p>
+      <div class="threat">
+         <div class="vul">
+            <a href="https://en.wikipedia.org/wiki/Vulnerable_species" target="_blank"><h2>Vulnerable</h2></a>
+            <br>
+            <p>
+               A vulnerable species (VU) is a species which has been categorized by the 
+               International Union for Conservation of Nature that is threatened with 
+               extinction in the near future unless the circumstances that are threatening 
+               its survival and reproduction improve.<br>
+            </p>
+         </div>
+         <div class="endanger">
+            <a href="https://en.wikipedia.org/wiki/Endangered_species_(IUCN_status)" target="_blank"><h2>Endangered</h2></a>
+            <br>
+            <p>
+               Endangered species (ES) as classified by the IUCN, 
+               are species which have been categorized as very likely to become extinct in the near future. 
+               On the IUCN Red List, endangered is the second most severe conservation status for wild populations 
+               in the IUCN's schema after Critically endangered (CR).<br>
+            </p>
+         </div>
+         <div class="crit">
+            <a href="https://en.wikipedia.org/wiki/Critically_Endangered" target="_blank"><h2>Critically Endangered</h2></a>
+            <br>
+            <p>
+               An IUCN Red List Critically Endangered (CR) species is one that has been categorized by the IUCN 
+               as facing an extremely high risk of extinction in the wild. 
+               As of 2021, of the 120,372 species currently tracked by the IUCN, there are 6,811 species that are considered to be Critically Endangered.<br>
+            </p>
+         </div>
+      </div>
+   </section>
+   <!----------Section 4---------->
+   <section class="end" id="con-scroll">
+      <a href="">
+         <img src='images/logo1.png' alt='Wildlife logo' width='10%' height='10%'>
+      </a>
+      <div class="end-div1">
+         <address>
+            <b style="font-family: Poppins;">For contacts :</b><br>
+            Address:<br>
+            Celeste Slater,<br>
+            606-3727 Ullamcorper. Street,<br>
+            Roseville NH 11523.<br>
+            Mail-id :<br>
+            <a href="mailto:deepakjayarajan01@gmail.com" style="color: plum;font-size: 40px;">Deepak J</a><br>
+            or<br>
+            Phone :<br>
+            (654) 393-5734
+         </address>
+      </div>
+      <div class="end-div2">
+         <p>Social media handles : </p>
+         <a href="#" class="fa fa-facebook"></a>
+         <a href="#" class="fa fa-twitter"></a>
+         <a href="#" class="fa fa-google"></a><br>
+         <a href="#" class="fa fa-linkedin"></a>
+         <a href="#" class="fa fa-youtube"></a>
+         <a href="#" class="fa fa-instagram"></a>
+      </div>
+   </section>
+</body> 
+</html>

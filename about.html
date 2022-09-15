@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <title>Wildlife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' type='img/png' href='images/eagletitle.png' sizes='16x16' />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Caveat:wght@400;500;600;700&family=Cookie&display=swap&family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles1.css" />
+    <link rel="stylesheet" href="CSS/styles3.css" />
+</head>
+<body>
+    <!----------Section 1---------->
+    <section class="header">
+        <nav>
+            <a href="http://localhost:5500/index.html">
+                <img src='images/logo4.png' alt='Wildlife logo'width='10%' height="10%">
+            </a>
+            <div class="nav-links" id=navLinks>
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="https://www.worldwildlife.org/about/careers" target="_blank">COLLABORATE</a></li>
+                    <li><a href="https://india.wcs.org/Programmes" target="_blank">PROGRAMMES</a></li>
+                    <li><a href="#con-scroll">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <br>
+        <div class="text-box">
+            <div title="ABOUT US">
+                <svg class="svg1" width="100%" height="100%">          
+                    <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+                    <text x="50%" y="60%" text-anchor="middle">ABOUT US</text>
+                </svg>
+            </div>
+            <p>An Organization to save Wildlife and a photo gallary of endangered species</p>
+            <a href="https://lp.panda.org/donate" target="_blank" class="hero-btn">Click here to donate</a>
+        </div>
+        <!--Java Script-->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right='-200px'
+            }
+        </script>
+        <!--/Java Script-->
+    </section>
+    <!---------Section 2--------->
+    <section class="abt">
+        <div class="abt-div">
+            <h1>WHO WE ARE</h1>
+            <p>
+                For 60 years, WWF has worked to help people and nature thrive.<br>
+
+                As the world’s leading conservation organization, WWF works in nearly 100 countries. 
+                At every level, we collaborate with people around the world to develop and deliver 
+                innovative solutions that protect communities, wildlife, and the places in which they live.<br>
+            </p>
+            <h1>HOW WE WORK</h1>
+            <b style="font-family: 'Roboto';font-weight: 300;">For</b>
+            <div class="dropping-texts">
+                <div>Nature</div>
+                <div>People</div>
+                <div>ever</div>
+            </div>
+            <br> 
+            <p style="font-family: 'Cookie', cursive;font-size: 28px;">
+                WWF works to help local communities conserve the natural resources they depend upon; 
+                transform markets and policies toward sustainability; and protect and restore species and their habitats. 
+                Our efforts ensure that the value of nature is reflected in decision-making from a local to a global scale.<br>
+                WWF connects cutting-edge conservation science with the collective power of our partners in the field, 
+                more than 1 million supporters in the United States and 5 million globally, and our partnerships with communities, companies, and governments.
+                Today, human activities put more pressure on nature than ever before, but it’s also humans who have the power to change this trajectory. 
+                Together, we can address the greatest threats to life on this planet and protect the natural resources that sustain and inspire us.<br>
+            </p> 
+        </div>
+    </section> 
+    <section class="hi">
+        <div>
+            
+        </div>
+    </section>
+    <!----------Section 3---------->
+    <section class="end" id="con-scroll">
+        <a href="index.html">
+           <img src='images/logo1.png' alt='Wildlife logo' width='10%' height='10%'>
+        </a>
+        <div class="end-div1">
+           <address>
+              <b style="font-family: Poppins;">For contacts :</b><br>
+              Address:<br>
+              Celeste Slater,<br>
+              606-3727 Ullamcorper. Street,<br>
+              Roseville NH 11523.<br>
+              Mail-id :<br>
+              <a href="mailto:deepakjayarajan01@gmail.com" style="color: plum;font-size: 40px;">Deepak J</a><br>
+              or<br>
+              Phone :<br>
+              (654) 393-5734
+           </address>
+        </div>
+        <div class="end-div2">
+           <p>Social media handles : </p>
+           <a href="#" class="fa fa-facebook"></a>
+           <a href="#" class="fa fa-twitter"></a>
+           <a href="#" class="fa fa-google"></a><br>
+           <a href="#" class="fa fa-linkedin"></a>
+           <a href="#" class="fa fa-youtube"></a>
+           <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </section>   
+</body>
+</html>
